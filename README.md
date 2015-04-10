@@ -1,19 +1,10 @@
-# Meme v.2
+# Creador de Memes
 
-Contributors: Yuri Victor, Joshua Benton, Matt Montgomery, Ivar Vong, Steve Peters, Flip Stewart, Greg MacWilliam.
+Forked from [Vox Media](https://github.com/voxmedia/meme)
 
-Meme is a generator that Vox Media uses to create social sharing images. See working version at [http://www.sbnation.com/a/meme](http://www.sbnation.com/a/meme).
+Creador de Memes es un generador que fue creado por Vox Media para crear imágenes para las redes sociales. Vea la versión en vivo aquí [http://www.sbnation.com/a/meme](http://www.sbnation.com/a/meme).
 
 ![screenshot](readme.png)
-
-## What's new in version 2.0?
-
-* Refactored into a formal MV* app.
-* Fixed bugs with rendering state and repeat drag-n-drop images.
-* Improved initial rendering with loaded web fonts.
-* Improved cross-origin options: both for base64 images and CORS.
-* Highly (and easily!) customizable editor and theme options.
-* Watermark selector.
 
 ## Install
 
@@ -49,15 +40,5 @@ If you're hosting this application on the same domain that serves your images, t
 
 ## Examples
 
-* http://www.sbnation.com/a/meme
-* https://twitter.com/voxdotcom/status/481671889094340608
-* https://twitter.com/voxdotcom/status/479228288221470721
-* https://twitter.com/voxdotcom/status/481619042545844225
-
-## Contributing
-
-1. Fork it ( https://github.com/voxmedia/meme/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+* https://twitter.com/vivelohoy/status/585507575178878976
+* https://twitter.com/vivelohoy/status/585499662343413760

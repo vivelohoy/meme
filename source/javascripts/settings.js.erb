@@ -1,7 +1,7 @@
 var MEME_SETTINGS = {
-  creditText: 'Source:', // Default "credits" text.
+  creditText: 'Fuente:', // Default "credits" text.
   creditSize: 12, // Font size for credit text.
-  downloadName: 'share', // The name of the downloaded image file (will have a ".png" extension added).
+  downloadName: 'meme', // The name of the downloaded image file (will have a ".png" extension added).
   fontColor: 'white', // Universal font color.
 
   // Universal font family for texts:
@@ -9,18 +9,18 @@ var MEME_SETTINGS = {
   fontFamily: 'Helvetica Neue',
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
-  fontFamilyOpts: ['Arial', 'Helvetica Neue', 'Comic Sans MS'],
+  fontFamilyOpts: ['Arial', 'Helvetica Neue'],
   
   // Font size of main headline:
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
   fontSizeOpts: [
-    {text: 'Small text', value: 14},
-    {text: 'Medium text', value: 24},
-    {text: 'Large text', value: 36}
+    {text: 'Texto pequeño', value: 14},
+    {text: 'Texto mediano', value: 24},
+    {text: 'Texto grande', value: 36}
   ],
 
-  headlineText: 'Write your own headline', // Default headline text.
+  headlineText: 'Escribe el título', // Default headline text.
   height: 378, // Canvas rendering height.
   imageScale: 1, // Background image scale.
   imageSrc: '', // Default background image path. MUST reside on host domain, or use base64 data.
@@ -29,16 +29,16 @@ var MEME_SETTINGS = {
   // Image overlay color, or blank ('') for no overlay:
   overlayColor: '#000',
   // Overlay color options: set to empty array to disable overlay options selector.
-  overlayColorOpts: ['#000', '#777', '#2980b9'],
+  overlayColorOpts: ['#000', '#777', '#fa262f'],
   paddingRatio: 0.05, // Percentage of canvas width to use as edge padding.
   
   // Text alignment: valid settings are "left", "center", and "right".
   textAlign: 'left',
   // Text alignment options: set to empty array to disable alignment picker.
   textAlignOpts: [
-    {text: 'Align left', value: 'left'}, 
-    {text: 'Align center', value: 'center'},
-    {text: 'Align right', value: 'right'}
+    {text: 'Alinear a la izquierda', value: 'left'}, 
+    {text: 'Alinear al centro', value: 'center'},
+    {text: 'Alinear a la derecha', value: 'right'}
   ],
 
   textShadow: false, // Text shadow toggle.
@@ -54,8 +54,7 @@ var MEME_SETTINGS = {
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-    {text: 'Vox', value: '<%= image_path("vox.png") %>', data: '<%= asset_data_uri("vox.png") %>'},
-    {text: 'The Verge', value: '<%= image_path("theverge.png") %>', data: ''}
+    {text: 'Hoy', value: '<%= image_path("hoy.png") %>', data: '<%= asset_data_uri("hoy.png") %>'}
   ],
 
   width: 755 // Canvas rendering width.
